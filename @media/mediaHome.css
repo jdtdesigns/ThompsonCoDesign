@@ -1,0 +1,50 @@
+/*------------------ Home Page ------------------*/
+
+@media screen and (max-width: 480px){
+
+#myNavbar{
+    text-align: center;
+  }
+.background-top h1{
+  font-size: 36px;
+}
+.background-top h3{
+  font-size: 24px;
+}
+#learn{
+  width: 33%;
+  text-align: center;
+}
+#footer ul{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+  #myNavbar{
+      text-align: center;
+    }
+  .background-top h1{
+    font-size: 48px;
+  }
+  .background-top h3{
+    font-size: 32px;
+  }
+  #learn{
+    width: 33%;
+    text-align: center;
+  }
+  #footer ul{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px){
+
+
+}

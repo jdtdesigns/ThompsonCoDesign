@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Homepage</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <link rel="stylesheet" href="@media/mediaContact.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body id="contactTop">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="https://www.thompsoncodesign.com/">Me</a>
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul id="main_list" name="main_list" class="nav navbar-nav navbar-right">
+
+        <li name="introduction" id="introduction"><a href="index.html"> Home</a></li>
+        <li name="projects" id="projects">
+          <a href="projects.html">
+            <i class="fa fa-code" aria-hidden="true"></i> Projects</a>
+          </li>
+          <li name="contact" id="contact">
+            <a href="contact.html" class="current">
+              <i class="fa fa-comment" aria-hidden="true">
+              </i> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="container-fluid">
+      <h1>Contact Form</h1>
+      <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+          <h4>
+            Please contact me for more information.
+          </h4>
+
+          <br><br>
+          <div>
+            <form class="form-horizontal" role="form" id="form">
+              <div class="form-group">
+
+                <label for="email" class="col-sm-2 control-label">
+                  Email:
+                </label>
+                <div class="col-sm-10">
+                  <input type="email" required class="form-control" name="email" id="email" placeholder="handle@blank.com" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="firstName" class="col-sm-2 control-label">
+                  First Name:
+                </label>
+                <div class="col-sm-10">
+                  <input type="text" required class="form-control" name="firstName" id="firstName" placeholder="First Name" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="col-sm-2 control-label">
+                  Last Name:
+                </label>
+                <div class="col-sm-10">
+                  <input type="text" required class="form-control" name="lastName" id="lastName" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="company" class="col-sm-2 control-label">
+                  Company Name: (optional)
+                </label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="company" id="company" placeholder="Company" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="comment" class="col-sm-2 control-label">
+                  Comments:
+                </label>
+                <div class="col-sm-10">
+                  <textarea name="comment" required class="form-control" id="comment" rows="8" cols="80"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+
+                  <button type="submit" name="submit" id="submitForm" class="btn btn-default" onclick="validate_input">
+                   Submit Contact Info
+                 </button>
+                 <span id="status"></span>
+               </div>
+             </div>
+           </form>
+         </div>
+       </div>
+       <div class="col-md-2"></div>
+     </div>
+     <br><br><br><br>
+     <div class="row">
+      <div class="col-sm-2"></div>
+      <div id="googleMap" class="col-sm-8">
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <br><br><br><br>
+    <div class="row">
+      <div class="col-sm-4">
+
+      </div>
+      <div class="col-sm-4 address">
+
+
+        <address>
+         <strong>Joseph Thompson</strong><br /> Thompson Co. Design<br /> Acworth, GA<br /> <abbr title="Phone">P:</abbr> (678) 943-3920
+       </address>
+     </div>
+      <div class="col-sm-4">
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <footer>
+      <br>
+      <nav class="nav">
+        <div class="container" id="footer">
+          <div class="col-xs-3"></div>
+          <div class="col-xs-6 footer">
+            <ul class="nav navbar-nav">
+              <li class="footer_icon"><a href="https://twitter.com/Joe_MThompson"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="footer_icon"><a href="https://www.linkedin.com/in/joseph-thompson-507b1075/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li class="footer_icon"><a href="https://www.facebook.com/joseph.thompson.92123015"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="footer_icon"><a href="https://github.com/jthomps838"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-3"></div>
+        </div><br>
+      </nav>
+      <div class="panel-footer" id="creator">
+        <span class="creator">Designed and Coded by Joseph Thompson</span>
+        <br />
+        <span class="copyright">Copyright &copy 2017 <a href="index.html">Thompson Co. Design</a></span>
+      </div>
+
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script type="text/javascript" src='script/fadeEffects.js'></script>
+
+  <script type="text/javascript" src="script/script.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOV9V_taqJLFDpPhnyTIpO4Ng3_JejSR0&callback=myMap"></script>
+
+  <script type="text/javascript" src="validation.js"></script>
+</body>
+
+
+</html>

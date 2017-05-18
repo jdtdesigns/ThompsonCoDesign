@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-top {
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.background-top h1 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.background-top h3 {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+.background-top a {
+    position: sticky;
+    bottom: 0;
+    width: 20%;
+}
+
+.background-top a:hover {
+    background-color: transparent;
+    color: orange;
+}
+
+.btnStyle {
+    color: #fff;
+    background-color: #000917;
+    border-color: #030956;
+}
+#myNavbar{
+    text-align: center;
+  }
+.navbar {
+    opacity: 0.5;
+    background: black;
+}
+.current{
+  font-weight: bold;
+}
+
+.arrow_down {
+    font-size: 15em;
+    text-align: center;
+    color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.bg-1 {
+    background-color: rgb(254, 253, 249);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.bg-2 {
+    background-color: rgb(31, 44, 185);
+    text-align: center;
+}
+
+.bg-3 {
+    background-color: rgb(215, 213, 211);
+    text-align: center;
+}
+
+#secondColumn {
+    background-color: transparent;
+}
+
+
+/*                    Three column index   */
+
+.columnHeader {
+    font-size: 3em;
+    text-align: center;
+}
+
+.columnFooterText {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.columnDesign {
+    padding: 30px 10px 30px 10px;
+}
+
+.iconHomeColumn {
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/*                     Footer             */
+
+#footer {
+    color: darkgray;
+    margin: 0 auto;
+}
+
+#footer ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+#footer ul li{
+  width: 25%;
+}
+.footer {
+    text-align: center;
+}
+
+.footer_icon {
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_icon a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.footer_icon a:hover {
+    color: black;
+    background: transparent !important;
+    opacity: 0.5;
+}
+
+#creator {
+    text-align: center;
+}
+
+.fa-level-up{
+  font-size: 2em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: gray;
+  border: 1px solid transparent;
+  border-radius: 2%;
+  padding: 10px;
+}
+.is-hidden{
+  display: none;
+}
+
+/*                Contact Page                      */
+
+#contactTop{
+  background: lightgray;
+}
+#form{
+  background: beige;
+  border: 1px solid transparent;
+  border-radius: 1%;
+  padding: 30px 20px;
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+.address {
+text-align: center;
+}
+
+/*                 Google Map           */
+
+#googleMap{
+  height: 400px;
+  margin: 0 auto;
+}
+
+/*                 Projects Page           */
+.projectPanel{
+  text-align: center;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+}
+.projects a{
+  align-self: center;
+  padding-left: 30px;
+}
