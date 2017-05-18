@@ -2,7 +2,7 @@
 function submitForm() {
   var name = $('#firstName').val() + ' ' + $('#lastName').val();
 
-  $('#status').innerHTML = 'please wait ...';
+  $('#status').text('please wait ...');
 
   $.post('emailForm.php', {
     name: name,
