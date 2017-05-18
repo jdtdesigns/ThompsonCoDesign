@@ -1,7 +1,7 @@
 <?php
 
 
-if ( isset($_POST["email"]) && isset($_POST['name']) && isset($_POST["comment"]) ) {
+if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['comment']) ) {
 
   $name = $_POST['name'];
   $email = $_POST['email'];
@@ -16,7 +16,7 @@ if ( isset($_POST["email"]) && isset($_POST['name']) && isset($_POST["comment"])
 
 
   if ( mail($to, $subject, $body, $headers) ) {
-    header ("Location: success.html");
+    header('Location: success.html');
   } else {
     echo '<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
   }
